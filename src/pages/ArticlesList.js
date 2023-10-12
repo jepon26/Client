@@ -1,5 +1,6 @@
 import React from 'react'
-import articleContent from './Article'
+import {Link} from 'react-router-dom'
+import articleContent from './article-content'
 
 const ArticlesList = () => {
   return (
