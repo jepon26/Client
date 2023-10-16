@@ -2,6 +2,9 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import articleContent from './article-content'
 
+
+
+
 const Article = () => {
   const {name} = useParams ()
   const article = articleContent.find((article) => article.name === name);
