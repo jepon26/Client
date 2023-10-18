@@ -21,7 +21,7 @@ const ArticlesList = () => {
 <p className='leading-relaxed mb-3 '>
 {article.content[0].substring(0, 110)}...
 </p>
-<div className='text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0'>
+<div className='text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0' to={`/article/${article.name}`}>
   Learn more
   </div>/
 </div>
