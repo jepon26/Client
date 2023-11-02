@@ -4,7 +4,7 @@ import articleContent from './article-content';
 
 
 //components
-import Articles from "../components/Articles";
+import Articles from './Articles';
 
 const Article = () => {
   const {name} = useParams ()
